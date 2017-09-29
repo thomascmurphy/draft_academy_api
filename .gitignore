@@ -1,0 +1,12 @@
+# Virtualenv
+flask/
+.pyenv/
+
+# Ignore the instance config.
+/app/instance/*
+
+# Ignore the SQLite database.
+/app/db/*.db
+
+# Mac OS X custom attribute files
+.DS_Store
